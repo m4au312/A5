@@ -1,0 +1,767 @@
+/* text */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0); 
+}
+h1{
+  z-index: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 7em;
+  color: white;
+  line-height: 170%;
+  text-shadow:5px 5px 10px grey;
+}
+h2{
+  font-family: 'Didot', serif;
+  font-size: 5em;
+  color: white;
+  z-index: 2;
+}
+h3{
+  font-family: Helvetica, sans-serif;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  line-height: 2em;
+  font-size: 20px;
+}
+#black{
+  color: black;
+}
+.w{
+  text-align: right;
+}
+
+/* overlay */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+.closeB{
+  position:absolute;
+  top:10px;
+  right:300px;
+}
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100vh; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(52,62,90,0.90); /* Black background with opacity */
+  padding: 5%;
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+#overP1 {
+  width: 30%;
+  height: 70vh;
+  margin: 0px;
+  padding: 40px;
+  background-color: #94D0B8;
+  position: absolute;
+  left:3%;
+  top:10%;
+}
+#overP2 {
+  width: 30%;
+  height: 70vh;
+  margin: 0px;
+  padding: 40px;
+  background-color:#FDBAAE;
+  position:absolute;
+  right:12%;
+  top:10%;
+}
+#overTag { 
+  background-color: magenta;
+  padding: 10px;
+  margin-top: -15%;
+  width: 30%;
+  height: 10%;
+}
+#overC {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px white;
+  border-radius: 4px;
+}
+
+/* navbar */
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(192, 19, 19, 0);
+  font-family: Helvetica, sans-serif;
+  position: absolute;
+  width: 90%;
+  right: 0px;
+}
+
+li {
+  float: left;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-top:70px;
+}
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+li a:hover:not(.active) {
+  background-color: rgba(31, 31, 31, 0.219);
+}
+.active {
+  background-color: rgb(255, 211, 88);
+  cursor: pointer;
+  right: 100px;
+}
+.nbar{
+position:inherit;
+top:-100%;
+right: 0%;
+z-index: 
+}
+
+
+/* header */
+
+/* mobile head */
+#mMenu{
+background-color: #FED563;
+position: absolute;
+right: 0%;
+top: 25px;
+border-radius: 12px;
+display: none;
+}
+.mLogo{
+  width:100px;
+  height: 100px;
+  position: absolute;
+  left:0%;
+  top:0%;
+  display: none;
+}
+
+/* body */
+body {
+  background: url('images/bg wave.svg')no-repeat;
+  background-size: cover;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+/* button */
+button {
+  padding: 10px 20px 10px 20px;
+  margin-left: 50px;
+  background-color: white;
+  border: none;
+  text-align: center;
+  border-radius: 6px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#tab1{
+  position: absolute;
+  bottom: 10%;
+  left:50px;
+}
+#tab2{
+  position: absolute;
+  bottom: 10%;
+  left:35%;
+}
+#tab3{
+  position: absolute;
+  bottom: 10%;
+  left:55%;
+}
+#tab4{
+  background-color: #FED563;
+  position: absolute;
+  right: 0%;
+  bottom: 10%
+}
+
+.button:hover {
+  background-color: #118AB2;
+  color: white;
+  }
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* header */
+.head{
+  margin-bottom: 7vh;
+  height: 150px;
+  width: 100%;
+  position: relative;
+  background-color: rgba(102, 51, 153, 0);
+}
+/* charity name title */
+.hero {
+  position: relative;
+  padding: 0px 150px 0px 150px;
+  height: 70vh;
+
+
+}
+.heroT1 {
+  position:absolute;
+  left: 10%;
+}
+.heroT2 {
+  position:absolute;
+  left:42%;
+  top: 35%;
+}
+.heroT3 {
+  position:absolute;
+  right: 10%;
+  top: 70%;
+}
+
+.heroP1{
+  position:absolute;
+  left:0px;
+}
+.heroP2{
+  position:absolute;
+  right:0px;
+  bottom: 0%;
+}
+
+/* about us */
+.aboutP{
+  width:100%;
+  height: 100vh;
+  margin: 10% 0px 10% 0px;
+  margin-bottom: 30%;
+  position: relative;
+
+
+}
+.about {
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  right:0px;
+  text-align: right;
+ 
+  font-kerning: 20em;
+
+}
+.aboutTitle{
+  position:absolute;
+  top:10%;
+  right:0%;
+  width:40%;
+
+  text-align: right;
+}
+
+.social{
+  position: absolute;
+  right:0px;
+  bottom:5%;
+  width:200px;
+  height:70px;
+}
+.scoialLink1{
+  margin: 10px 0px 10px 10px;
+  border-radius: 50%;
+  right:0px;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+}
+.scoialLink2{
+  margin: 10px 0px 10px 10px;
+  border-radius: 50%;
+  right:30%;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+}
+.scoialLink3{
+  margin: 10px 0px 10px 10px;
+  border-radius: 50%;
+  right:60%;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+}
+
+.impactP{
+  height: 100vh;
+  position: relative;
+
+}
+
+.impact{
+  width: 100%;
+  height: 25vh;
+
+  position: relative;
+background-color: #FAB376;
+  top:30%;
+
+  box-shadow: 10px 10px 50px rgba(40, 40, 40, 15);
+}
+.impactTitle{
+  position: absolute;
+  text-align: center;
+  top: 0%;
+  
+
+}
+.impactIcon{
+  position: absolute;
+  align-items: center;
+  width:70px;
+  top:0%;
+}
+.impactT{
+  position: absolute;
+  width:80%;
+  bottom: 0%;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 0px;
+
+}
+.impact1{
+  position: absolute;
+
+  width: 33%;
+  height: 70%;
+  bottom: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.impact2{
+  position: absolute;
+  width: 33%;
+  height: 70%;
+  bottom: 15%;
+  right:33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.impact3{
+  position: absolute;
+  
+  width: 33%;
+  height: 70%;
+  bottom: 15%;
+  right:0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* current project */
+.pj {
+  display: block;
+  margin: 30px 0px 30px 0px;
+  height: 600px;
+  width: 100%;
+  text-align: left;
+  position:relative;
+ 
+}
+.pjcd{
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  position:absolute;
+  top: 0px;
+  left: 20%;
+  box-shadow: 10px 10px 50px rgba(40, 40, 40, 15);
+}
+.pjp {
+  background-color: teal;
+  position:absolute;
+  width: 80%;
+  height: 100%;
+  left: 0px;
+}
+.pjt {
+  position:absolute;
+  background-color: white;
+  width: 20%;
+  height: 100%;
+  top: 0px;
+  left: 80%;
+  padding: 0px 0% 0px 0%;
+  line-height: 2em;
+
+}
+.tx {
+  width: 100%;
+  height: 100%;
+  padding: 3%;
+  overflow-y: scroll;
+}
+.cover {object-fit: cover;}
+
+foot {
+  margin: 0px;
+  padding: 0px;
+  width :100vw;
+  height :30%;
+  background-color: white;
+
+}
+
+
+/*------------------------------------------------------------- */
+
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 30%;
+  position: absolute;
+  left: 0px;
+  top:0px;
+  box-shadow: 10px 10px 50px rgba(40, 40, 40, 15);
+}
+.slideshowBg{
+  width:30%;
+  padding-top: 45%;
+  position: absolute;
+  left: 3%;
+  top:3%;
+  background-color: #FDBAAE;
+}
+
+.dotContener{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(250, 250, 250, 30);
+
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  font-family: Didot;
+  font-kerning: 10em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: right;
+}
+
+/* Number text (1/3 etc) */
+/* .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} */
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #e0cb0c;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* ------------------------------------------------------------------------------ */
+@media screen and (max-width: 800px) {
+  body {
+    background: url('images/bg m.png')no-repeat;
+    background-size: cover;
+    overflow-x:hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .mHead{
+    width:100%;
+    height:20vh;
+    position: relative;
+    background-color: hotpink;
+    }
+  #mMenu{
+    background-color: #FED563;
+    position: absolute;
+    right: 0%;
+    top: 25px;
+    border-radius: 12px;
+    display:inherit;
+  }
+  .mLogo{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    left:0%;
+    top:0%;
+    display:inherit;
+  }
+  .head{
+  margin-bottom: 7vh;
+  height: 150px;
+  width: 100%;
+  position: relative;
+  background-color: rebeccapurple;
+  display: none;
+  }
+
+  .hero {
+  position: relative;
+  padding: 0px 150px 0px 150px;
+  height: 80vh;
+  background-color: fuchsia;
+  }
+/* ------------------hero------------------------------------- */
+  h1{
+  z-index: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  color: white;
+  line-height: 170%;
+  text-shadow:5px 5px 10px grey;
+  }
+  h2{
+  font-size: 3em;
+  color: white;
+  z-index: 2;
+  }
+
+  .heroT1 {
+    position:absolute;
+    left: 2%;
+  }
+  .heroT2 {
+    position:absolute;
+    left:42%;
+    top: 35%;
+  }
+  .heroT3 {
+    position:absolute;
+    right: 2%;
+    top: 70%;
+  }
+  .heroP1{
+    position:absolute;
+    height: 40vh;
+    width: 40vw;
+    left:-10%;
+  }
+  .heroP2{
+    position:absolute;
+    right:0%;
+    bottom: 0%;
+  }
+
+  /* about us */
+  .slideshow-container {
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    box-shadow: 10px 10px 50px rgba(40, 40, 40, 15);
+  }
+  .slideshowBg{
+    width:50%;
+    padding-top: 75%;
+    position: absolute;
+    left: 3%;
+    top:3%;
+    background-color: #FDBAAE;
+  }
+  .aboutP{
+    width:100%;
+    height: 100vh;
+    margin-bottom: 30%;
+    position: relative;
+  }
+  .about {
+    margin: 20px 0px 20px 0px;
+    height: 150px;
+    width: 100%;
+    text-align: right;
+    top:60%vh;
+  }
+  .aboutTitle{
+  position:absolute;
+  top:10%;
+  right:0%;
+  width:40%;
+
+  text-align: right;
+}
+.social{
+  position: absolute;
+  right:0px;
+  top:40%;
+  width:200px;
+  height:70px;
+}
+.impactP{
+  height: 100vh;
+  position: relative;
+
+}
+.impactT{
+  font-size: 30px;
+}
+
+
+.impact{
+  width: 100%;
+  height: 80%;
+  position: relative;
+  top: 20%;
+  box-shadow: 10px 10px 50px rgba(40, 40, 40, 15);
+  background-color: #FAB376;
+}
+.impactTitle{
+  position: absolute;
+  right:0px;
+  top:-3%;
+
+}
+
+.impact1{
+  margin: 10% 0% 10% 0%;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top:0%
+}
+.impact2{
+  margin: 10% 0% 10% 0%;
+  width: 100%;
+  height: 25%;
+  right: 0%;
+  top:33%
+}
+.impact3{
+  margin: 10% 0% 10% 0%;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0%;
+}
+
+
+  /* current project */
+  .pj {
+    margin: 30px 0px 30px 0px;
+    height: 600px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    
+   
+  }
+  .pjcd{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position:absolute;
+    top: 60px;
+    left:0px;
+    
+    box-shadow: 10px 10px 50px rgba(40, 40, 40, 15);
+  }
+  .pjp {
+    background-color: teal;
+    position:absolute;
+    width: 100%;
+    height: 40%;
+    left: 0px;
+  }
+  .pjt {
+    position:absolute;
+    width: 100%;
+    height: 55%;
+    top: 40%;
+    left: 0%;
+    padding: 0px 0% 0px 0%;
+    line-height: 2em;
+  }
+  .tx {
+    width: 95%;
+    padding: 3%;
+    overflow-y: scroll;
+  }
+
+}

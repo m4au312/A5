@@ -1,0 +1,66 @@
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+  grid-template-rows: 0.3fr 2.2fr;
+  grid-template-areas:
+    "head head"
+    "img article";
+}
+
+.head { 
+  grid-area: head;
+  background-color: blue;
+ }
+.cover {object-fit: cover;}
+.img { 
+  grid-area: img; 
+}
+
+.article { 
+  grid-area: article;
+  padding: 10%;
+  background-color: #343E5A; 
+  overflow-y: scroll;
+  }
+.impact {
+  width:100%;
+  margin: 10px 0px 10px 0px;
+  background-color: #94D0B8;
+
+}
+.news {
+  padding: 20px;
+  background-color: white;
+  column-count: 2;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url('fonts/Helvetica.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2{
+font-family: myFirstFont;
+}
+
+p {
+font-family: Helvetica;
+}
+
+
+/* 
+.grid-container * {
+  border: 1px solid red;
+  position: relative;
+}
+
+.grid-container *:after {
+  content:attr(class);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+*/

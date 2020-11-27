@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="3375" viewBox="0 0 1920 3375">
+  <defs>
+    <filter id="Path_27" x="-88.988" y="338.32" width="2102.228" height="2555.529" filterUnits="userSpaceOnUse">
+      <feOffset dy="-27" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f7e2de"/>
+      <stop offset="0.365" stop-color="#ffb7aa"/>
+      <stop offset="1" stop-color="#ffc0b4"/>
+    </linearGradient>
+    <filter id="Path_25" x="-138.679" y="386.662" width="2201.419" height="2346.447" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="44.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2" x="-87" y="477.387" width="2102.241" height="2181.482" filterUnits="userSpaceOnUse">
+      <feOffset dy="-27" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="bg_last_wave" x="395.95" y="2822.473" width="1682.342" height="703.527" filterUnits="userSpaceOnUse">
+      <feOffset dy="-7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="49.5" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="bg_last_wave-2" x="395.95" y="2888.674" width="1682.342" height="637.326" filterUnits="userSpaceOnUse">
+      <feOffset dy="-7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="49.5" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-_2d_home_6">
+      <rect width="1920" height="3375"/>
+    </clipPath>
+  </defs>
+  <g id="_2d_home_6" data-name="2d home – 6" clip-path="url(#clip-_2d_home_6)">
+    <rect width="1920" height="3375" fill="#fff"/>
+    <path id="Path_26" data-name="Path 26" d="M0,0H1920V3384H0Z" fill="#343e5a"/>
+    <g id="bg_wave" data-name="bg wave" transform="translate(-3 27)">
+      <g transform="matrix(1, 0, 0, 1, 3, -27)" filter="url(#Path_27)">
+        <path id="Path_27-2" data-name="Path 27" d="M8132.824,488.361c1609.184,414.572,644.571,504.353,1930.237,952.865-.867,594.929,0,54.1,0,451.928-1071.925,235.3-1415.85,981.2-1934.228,982.737C8128.833,2487.278,8132.824,488.361,8132.824,488.361Z" transform="translate(-8133.82 -39.04)" fill="#fab376"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 3, -27)" filter="url(#Path_25)">
+        <path id="Path_25-2" data-name="Path 25" d="M8128.821,456.162c251.356,78.209,407.012,179.577,593.544,247.607,664.73,149.471,1018.724,391.7,1340.875,540.523-.867,541.721,0,215.512,0,577.759-583.788-40.749-1100.291,457.526-1934.419,713.558Z" transform="translate(-8134 64)" fill="url(#linear-gradient)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 3, -27)" filter="url(#Path_2)">
+        <path id="Path_2-2" data-name="Path 2" d="M8128.821,670.816c751.005,51.858,726.606,298.7,1031.457,471.273,166.688,102.857,852.643,100.176,902.784,116.926-.867,569.7,0,287.128,0,668.084C8306.607,2230.432,8647.2,2682.832,8128.821,2684.3Z" transform="translate(-8131.82 -82.43)" fill="#8bc4ae" opacity="0.889"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 3, -27)" filter="url(#bg_last_wave)">
+        <path id="bg_last_wave-3" data-name="bg last wave" d="M10046.068,2957c-763.5-40.872-716.315,284.077-1384.755,402,191.749-.6,1384.755,0,1384.755,0Z" transform="translate(-8116.78 25)" fill="#94d0b8" stroke="#707070" stroke-width="1"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 3, -27)" filter="url(#bg_last_wave-2)">
+        <path id="bg_last_wave-4" data-name="bg last wave" d="M10046.068,3023.994c-763.5-40.872-716.315,217.082-1384.755,335.006,191.749-.6,1384.755,0,1384.755,0Z" transform="translate(-8116.78 25)" fill="#f9b275" stroke="#707070" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
