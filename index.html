@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Australian Pet Welfare Foundation</title>
 	<link href="index.css" rel="stylesheet" type="text/css" />
-	<link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
+	<link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
 
 </head>
 
@@ -19,7 +19,7 @@
       <div class="nbar">
         <ul>
           <li><a href=""><img src="icon/us.svg" width=25px>About Us</a></li>
-          <li><a href="window.location.href='project.html';"><img src="icon/current p.svg" width=25px>Current Project</a></li>
+          <li><a href="aaaa.html"><img src="icon/current p.svg" width=25px>Current Project</a></li>
           <li><a href=""><img src="icon/past p.svg" width=25px>Past project </a></li>
           <li style="float:right"><a class="active" onclick="on()"><img src="icon/su.svg" width=25px>Support us</a></li>
         </ul>
@@ -42,46 +42,69 @@
   </div>
   <!---------overlay Card---------->
   <div id="overP1">
-    <div id="overTag">
+    <div class="suT">
       <overTx>Volunteer</overTx>
     </div>
   <div id="overC">
+    <div class="vol">
       <label for="email"><i class="fa fa-envelope"></i> Email</label></br>
-      <input type="text" id="email" name="email"></br>
+      <input type="text3" id="email" name="email"></br>
       <label for="email"><i class="fa fa-envelope"></i> Password</label></br>
-      <input type="text" id="passward" name="Password"></br>
+      <input type="text3" id="passward" name="Password"></br>
+    </div>
+      <div class="voPic">
+        <img src="images/charity.svg" width=150px>
+      </div>
+   
+      <div class="loin">
+          <input type="submit" value="Sing up">
+      </div>
+    
+   </form>  
   </div>
 </div>
 <!---------overlay Card---------->
 <div id="overP2">
-  <div id="overTag">
+  <div class="suT">
     <overTx>Dnation</overTx>
   </div>
 <!---------overlay Card---------->
     <div id="overC">
 
+    <form>
+      <center><input type="text2" value="$10"></center><br>
+      <div class="qpay">
+      <center><div>
+      <input type="button" value="$10"><input type="button" value="$20">
+      </div></center>
+      <center><div>
+      <input type="button" value="$30"><input type="button" value="$40">
+      </div></center>
+      </div>
 
-      <p> Your detail</p>
-      <form>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname">
-        <input type="checkbox">
-        <label for="vehicle1"> Be Anonymous </label><br>
-        <hr class="solid">
-        <p> Payment details</p>
-        <label for="cname">Name on Card</label><br>
-        <input type="text" id="cname" name="cardname" placeholder="John More Doe"><br>
-        <label for="ccnum">Credit card number</label><br>
-        <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"><br>
-        <label for="expmonth">Exp Date</label><br>
-        <input type="text" id="expmonth" name="expmonth" placeholder="September">
-        <input type="text" id="expyear" name="expyear" placeholder="2018"><br>
-        <label for="cvv">CVV</label><br>
-        <input type="text" id="cvv" name="cvv" placeholder="352"><br>
-        <center><input type="submit" value="Continue to checkout" class="btn"></center>
-      </form>   
+      <hr class="solid">
+      <label for="fname">First name</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name</label><br>
+      <input type="text" id="lname" name="lname"></br>
+      <input type="radio">
+      <label> Be Anonymous </label><br>
+      <hr class="solid">
+      <p> Payment details</p>
+      <label for="cname">Name on Card</label><br>
+      <input type="text" id="cname" name="cardname"><br>
+      <label for="ccnum">Credit card number</label><br></br>
+      <input type="text" id="ccnum" name="cardnumber"><br>
+      <label for="expmonth">Exp Date (MM/YY)</label><br>
+      <input type="text" id="expmonth" name="expmonth" placeholder="09">
+      <input type="text" id="expyear" name="expyear" placeholder="2018"><br>
+      <label for="cvv">CVV (***)</label><br>
+      <input type="text" id="cvv" name="cvv" ><br>
+      <center><img class="hf" src="icon/high-five.svg"><center>
+
+      <center><input type="submit" value="Confirm Donation"></center>
+    </form>  
+
     </div>
   </div>
 </div>
@@ -99,11 +122,13 @@
 <!---------landing---------->  
   <div class="hero">
     <!---------hero pic x2---------->
-    <div>
-      <img class="heroP1" src="images/hero1.png" width="22%" alt="">
+    <div class="heroP1">
+      <img class="cover" src="images/hero1.png" style="width:100%;height:100%">
     </div>
-    <div>
-      <img class="heroP2" src="images/hero2.png" width="27%" alt="">
+
+    <div class="heroP2">
+      <img class="cover" src="images/hero2.png" style="width:100%;height:100%">
+    </div>
     </div>
     <!---------hero text----------> 
     <div>
@@ -129,7 +154,7 @@
     </div>
 
     <div class="social">
-      <div class="scoialLink1"><a href="https://www.facebook.com/PetWelfareFoundation/" target="_blank"><img src="icon/social 1.svg"></a></div>
+      <div class="scoialLink1"><a href="https://www.youtube.com/channel/UC0uoQKN0IWeV8WK62CUqu2A/featured" target="_blank"><img src="icon/social 1.svg"></a></div>
       <div class="scoialLink2"><a href="https://www.facebook.com/PetWelfareFoundation/" target="_blank"><img src="icon/social 2.svg"></a></div>
       <div class="scoialLink3"><a href="https://www.facebook.com/PetWelfareFoundation/" target="_blank"><img src="icon/social 3.svg"></a></div>
     </div>
@@ -219,7 +244,9 @@
 </div>
 <!---------------------project start------------------------->
     <div class="pj">
+      <div class="pjTi">
       <h2>Projects</h2>
+      </div>
         <div class="pjcd">
           <div class="pjp">
            <img class="cover" src="images/cat.jpg" style="width:100%;height:100%">
@@ -227,7 +254,7 @@
 
           <div class="pjt">
             <div class="tx">
-            <h3>Community Cat Program</h3>
+            <a href="aaaa.html"><h3>Community Cat Program</h3></a>
             <p id="black">Most of the animals currently euthanased in Australian shelters and pounds are stray cats from cities and towns. This is because how we currently manage them doesn’t reduce their numbers. But we know what will reduce their numbers. Now we need your help to prove it.</p><br>
             </div>
           </div>
@@ -238,7 +265,7 @@
 
     <foot>
       <div class="foot">
-        <h1>go</h1>
-      </div>
+          <a href="mobile form.html"><button class="su2"  > Support Us</button></a>
+      </div>      
     </foot>
 </html>

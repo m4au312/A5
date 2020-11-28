@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Australian Pet Welfare Foundation</title>
+	<link href="mobile form.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+
+</head>
+
+<body>
+<div class="x">
+<button onclick="goBack()"><img src="icon/X.svg"></button>
+</div>
+<h2>Donation</h2>
+
+    <form>
+      <center><input type="text2" value="$10"></center><br>
+      <div class="qpay">
+      <center><div>
+      <input type="button" value="$10"><input type="button" value="$20">
+      </div></center>
+      <center><div>
+      <input type="button" value="$30"><input type="button" value="$40">
+      </div></center>
+      </div>
+
+      <hr class="solid">
+      <label for="fname">First name</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name</label><br>
+      <input type="text" id="lname" name="lname"></br>
+      <input type="radio">
+      <label> Be Anonymous </label><br>
+      <hr class="solid">
+      <p> Payment details</p>
+      <label for="cname">Name on Card</label><br>
+      <input type="text" id="cname" name="cardname"><br>
+      <label for="ccnum">Credit card number</label><br></br>
+      <input type="text" id="ccnum" name="cardnumber"><br>
+      <label for="expmonth">Exp Date (MM/YY)</label><br>
+      <input type="text" id="expmonth" name="expmonth" placeholder="09"></br>
+      <input type="text" id="expyear" name="expyear" placeholder="2018"><br>
+      <label for="cvv">CVV (***)</label><br>
+      <input type="text" id="cvv" name="cvv" ><br>
+      <center><img class="hf" src="icon/high-five.svg"><center>
+
+      <center><input type="submit" value="Confirm Donation"></center>
+    </form>  
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+</body> 
