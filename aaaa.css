@@ -1,20 +1,33 @@
 html, body, .grid-container { height: 100%; margin: 0; }
 
+@font-face {
+font-family: Helvetica;
+src: url('Helvetica.ttc') format('truetype');
+}
+@font-face {
+font-family: Didot;
+src: url('Didot.ttc') format('truetype');
+}
+
+
+
+
+
 h1{
-font-family: Helvetica, sans-serif;
+font-family: 'Helvetica', sans-serif;
 font-size: 30pt;
 text-shadow:5px 5px 10px grey;
 color: white;
 }
 h2{
-font-family: Helvetica, sans-serif;
+font-family: 'Helvetica', sans-serif;
 }
 p{
-font-family: Helvetica, sans-serif;
+font-family: 'Helvetica', sans-serif;
 line-height: 20pt;
 }
 h3{
-font-family: Didot;
+font-family: 'Didot';
 color: #383838;
 line-height: 10px;
 }
@@ -49,7 +62,7 @@ line-height: 10px;
   column-gap: 2px;
   line-height: 2em;
   font-size: 16pt;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Helvetica', sans-serif;
   box-shadow: 10px 10px 50px rgba(40, 40, 40, 15);
   position: relative;
 }
@@ -115,7 +128,7 @@ ul.tab {
         padding: 0;
         overflow: hidden;
         background-color: rgba(95, 238, 0, 0.781);
-        font-family: Helvetica, sans-serif;
+        font-family: 'Helvetica', sans-serif;
         position: absolute;
         width: 90%;
         right: 0px;
@@ -128,7 +141,7 @@ li.tab {
   margin-left: 15px;
   margin-top:70px;
   list-style-type: none;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
 li a {
@@ -164,7 +177,7 @@ button {
   border: none;
   text-align: center;
   border-radius: 6px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 20px;
   cursor: pointer;
   font-weight: bold;
@@ -220,7 +233,7 @@ img {vertical-align: middle;}
 -------------------------------------------------------------------------
 
 ol {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Helvetica', sans-serif;
   line-height: 2em;
   font-size: 1.5em;
 }
@@ -257,7 +270,7 @@ body {
     padding-top: 30px;
     line-break: 15pt;
     box-shadow: 0px 0px 0px rgba(40, 40, 40, 15);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Helvetica', sans-serif;
   }
   .storyTil{
   width:0.3fr;
@@ -305,7 +318,7 @@ iframe{
   text-align: center;
 }
 h3{
-font-family: Didot;
+font-family: 'Didot';
 color: #000000;
 line-height: 15px;
 font-size-adjust: 1;
